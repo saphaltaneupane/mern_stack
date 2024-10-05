@@ -30,30 +30,37 @@
   </div> -->
   <form class="registerform">
     <label for="name">Name:</label><br>
-     <input type="text" placeholder="Your Name"id="name" name="name"><br><br>
-     <!-- can add value="saphalta" attribute too through which data is inserted -->
-     <label for="address">Address</label><br>
-     <input type="text" placeholder="Address" id="address" name="address"><br><br>
-     <label for="contact">Phone no</label><br>
-     <input type="text" placeholder="Phone No" id="contact" name="contact"><br><br>
-     <label for="email">Email</label><br>
-     <input type="email" placeholder="Email" id="email" name="email"><br><br>
-     <label for="dob">Date of birth:</label><br>
-     
+    <input type="text" placeholder="Your Name" id="name" name="name"><br><br>
+    <!-- value="saphalta"  can be put  -->
+    <label for="address">Address</label><br>
+    <input type="text" placeholder="Address" id="address" name="address"><br><br>
+    
+    <label for="query">Your Feedback</label><br>
+    <textarea id="query" name="query"></textarea><br><br>
+    <!-- cols="30" rows="10" -->
+
+    <label for="email">Email</label><br>
+    <input type="email" placeholder="Email" id="email" name="email"><br><br>
+    
+    <label for="dob">Date of birth:</label><br>
     <input type="date" placeholder="Date of Birth" id="dob" name="dob"><br><br>
+
     <label for="gender">Gender:</label><br>
-     <select name="gender" id="gender" name="gender"><br>
-      <option value="Male">Male</option>
-      <!-- selected in option means it is selected  -->
-      <option value="Female">Female</option>
-     </select><br><br>
-     <!-- <input type="number"><br> -->
-      <label for="profile">Profile</label><br>
-     <input type="file"><br><br>
+    <select name="gender" id="gender" name="gender">
+        <option value="Male">Male</option>
+        <!-- selected means that value is selected -->
+        <option value="Female">Female</option>
+    </select><br><br>
+
+    <label for="profile">Profile</label><br>
+    <input type="file" id="profile" name="profile"><br><br>
+
     <button type="submit">Submit</button>
-    <!-- better way to keep button in form but can keep the button below too -->
-     <!-- <input type="time"> -->
-  </form>
+    <!-- <input type="time">
+    <input type="number"> -->
+    <!-- button can be kepted outside the form too but the better way is inside -->
+</form>
+
   <!-- <button type="button"></button> -->
 </body>
 </html>
