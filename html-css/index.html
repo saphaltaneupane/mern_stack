@@ -7,15 +7,15 @@
     <link rel="shortcut icon" href="Images/me.avif" type="image/x-icon">
 </head>
 <body>
-    <!-- image with paragraph -->
+    <!-- image with paragraph
      <div class="image-paragraphs">
         <img src="Images/me.avif"  alt="Loading.....">
-        <!-- height="300" width="300" -->
-        <p>Sija Technology</p>
+         height="300" width="300" -->
+        <!-- <p>Sija Technology</p>
 </div>
-<hr>
+<hr> -->
  <!-- paragraphs with heading paragraphs and buttons  ,selectbox-->
-  <div>
+  <!-- <div>
     <div>
     <h1>Heading 1</h1>
     <h1>Heading 2</h1>
@@ -24,16 +24,36 @@
 <button type="button">Button</button><br>
 <button disabled>hi</button><br>
 <a href="https://www.google.com/">Visit Link</a>
-<strong>This is strong</strong>
+<strong>This is strong</strong> -->
 <!-- strong font size  -->
- <span>Hello </span>
-  </div>
+ <!-- <span>Hello </span>
+  </div> -->
   <form class="registerform">
-     <input type="text" placeholder="Your Name">
-     <input type="text" placeholder="Address">
-     <input type="text" placeholder="Phone No">
-     <input type="email" placeholder="Email">
-     <input type="date" placeholder="Date of Birth">
+    <label for="name">Name:</label><br>
+     <input type="text" placeholder="Your Name"id="name" name="name"><br><br>
+     <!-- can add value="saphalta" attribute too through which data is inserted -->
+     <label for="address">Address</label><br>
+     <input type="text" placeholder="Address" id="address" name="address"><br><br>
+     <label for="contact">Phone no</label><br>
+     <input type="text" placeholder="Phone No" id="contact" name="contact"><br><br>
+     <label for="email">Email</label><br>
+     <input type="email" placeholder="Email" id="email" name="email"><br><br>
+     <label for="dob">Date of birth:</label><br>
+     
+    <input type="date" placeholder="Date of Birth" id="dob" name="dob"><br><br>
+    <label for="gender">Gender:</label><br>
+     <select name="gender" id="gender" name="gender"><br>
+      <option value="Male">Male</option>
+      <!-- selected in option means it is selected  -->
+      <option value="Female">Female</option>
+     </select><br><br>
+     <!-- <input type="number"><br> -->
+      <label for="profile">Profile</label><br>
+     <input type="file"><br><br>
+    <button type="submit">Submit</button>
+    <!-- better way to keep button in form but can keep the button below too -->
+     <!-- <input type="time"> -->
   </form>
+  <!-- <button type="button"></button> -->
 </body>
 </html>
