@@ -1,3 +1,11 @@
+/* @import url(form.css);  */
+/*  call modular css can import all the css of the form using this */
+
+/* @import url(variable.css); */
 div{
-    background-color: grey;
+    margin:20px;
+    /* margin means outside where as padding means between the contains */
+    padding:30px; 
+    /* trbl */
+    /* background: var(--background); */
 }
