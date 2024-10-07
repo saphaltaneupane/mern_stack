@@ -4,7 +4,7 @@
 /* @import url(variable.css); */
 div{
     /* margin:20px; */
-    /* margin means outside where as padding means between the contains */
+    /* margin means outside where as padding means between the contains  from main div */
     padding:30px; 
     /* trbl */
     /* margin-top: 30px; */
