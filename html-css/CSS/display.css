@@ -35,5 +35,7 @@
     /* for justify content display flex is needed */
     /* flex-wrap:wrap; */
      /* if width of the parent class is less then it will lead to down */
+ /* align-items: center;  marign:auto;*/
+ /* for column */
 
 }
