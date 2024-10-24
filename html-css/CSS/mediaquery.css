@@ -1,0 +1,30 @@
+.media-query{
+    background-color: aqua;
+    height:200px;
+    width:80%;
+    font-size:10px;
+    text-align:center;
+    margin:auto;
+    color:white;
+  padding:20px;
+    border: 1px solid green;
+
+}
+.media-query h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px !important;
+}
+/* media query syntax = device responsiveness*/
+@media only screen and (max-width: 200px){
+    .media-query  {
+    width:300px;
+    font-size:10px;
+    background-color: red;
+    }
+}
+/* @media only screen and (max-width: 1400px){
+     
+} */
+ /* for printer */
+@media only print and (max-width: 768px){}
