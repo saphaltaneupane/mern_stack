@@ -3,9 +3,13 @@
     height:100px;
   width:200px;
   text-align: center;
+  animation-name:increasefontsize  ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 
 
 }
+/* animation name */
 @keyframes changebackground{
     from{
          background-color: black;
@@ -13,4 +17,31 @@
     to{
 background-color: red;
     }
+}
+@keyframes increasefontsize{
+    0%{
+         font-size: 1rem;
+         /* 1rem =16px */
+         background-color: pink;
+    }
+    25%{
+   font-size: 3rem;
+   font-weight: 800;
+   background-color: green;
+    }
+    50%{
+        font-size: 3rem;
+        font-weight: 800;
+        background-color: yellow;
+         }
+        75%{
+            font-size: 3rem;
+            font-weight: 800;
+            background-color: blue;
+             }
+             100%{
+                font-size: 3rem;
+                font-weight: 800;
+                background-color: red;
+                 }
 }
