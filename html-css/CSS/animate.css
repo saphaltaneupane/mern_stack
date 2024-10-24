@@ -1,0 +1,16 @@
+.animation-content{
+    border:1px solid grey;
+    height:100px;
+  width:200px;
+  text-align: center;
+
+
+}
+@keyframes changebackground{
+    from{
+         background-color: black;
+    }
+    to{
+background-color: red;
+    }
+}
