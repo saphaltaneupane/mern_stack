@@ -29,3 +29,4 @@ console.log(a);
 a();
 // let =local block scoped  no hoisting  
 //var =global scope Hoisting = host the flag top ma logdinxa
+//var is bug prone so use let
