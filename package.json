@@ -1,0 +1,20 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saphaltaneupane/mern_stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saphaltaneupane/mern_stack/issues"
+  },
+  "homepage": "https://github.com/saphaltaneupane/mern_stack#readme",
+  "description": ""
+}
